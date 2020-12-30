@@ -34,6 +34,8 @@ public class Score extends Rectangle
         g2.drawString("players active: "+ CHAMPIONS_L,100,30);
 
         g2.drawString("fail : "+String.valueOf(lost),130,60);
+        g2.drawString(" press SPACE for a new ball ", (GAME_WIDTH-300),20);
+
         g2.drawString("max fitness : "+String.valueOf(PongPanel.maxFitness),130,90);
         g2.setFont(new Font("Consolas",Font.PLAIN,20));
         g2.drawString("bounces : "+String.valueOf(bounces /1000)+String.valueOf(bounces %1000),(GAME_WIDTH)-200,50);
